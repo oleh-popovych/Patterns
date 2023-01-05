@@ -9,7 +9,7 @@ class Singleton {
             Singleton.instance = new Singleton();
         }
 
-        return Singleton.getInstance();
+        return Singleton.instance;
     }
 
     public someBusinessLogic() {
