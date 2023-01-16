@@ -32,7 +32,7 @@ class ConcreteSubject implements Subject {
             return console.log('Subject: Nonexistent observer.');
         }
 
-        this.observers.slice(observerIndex, 1);
+        this.observers.splice(observerIndex, 1);
         console.log('Subject: Detached an observer.');
     }
 
